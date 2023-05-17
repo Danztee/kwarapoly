@@ -10,7 +10,7 @@ export default function Navbar() {
 
   return (
     <nav className="lg:flex lg:items-center lg:justify-between px-4 lg:px-16 py-4 lg:py-8">
-      <div>
+      <div className="mb-4 lg:mb-0">
         <Image src={logo} alt="logo" width={120} height={120} />
       </div>
 
@@ -23,7 +23,7 @@ export default function Navbar() {
         <CustomLink value="Sign Up" />
       </div>
 
-      <div className="btn absolute right-[10px] top-[7px] lg:hidden">
+      <div className="btn absolute right-[10px] top-[16px] lg:hidden">
         <RxHamburgerMenu
           size={30}
           onClick={() => setToggleMenu((value) => !value)}

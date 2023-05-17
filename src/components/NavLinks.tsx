@@ -4,7 +4,7 @@ type NavLinksProps = {};
 
 const NavLinks: React.FC<NavLinksProps> = () => {
   return (
-    <div className="gap-8 text-[#505050] flex flex-col items-start lg:flex-row lg:items-center mt-4 lg:mt-0">
+    <div className="gap-8 text-[#505050] flex flex-col items-start lg:flex-row lg:items-center">
       <Link href="/" className="hover:text-[#18753D]">
         Home
       </Link>

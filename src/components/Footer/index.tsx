@@ -17,7 +17,7 @@ const Footer: React.FC<FooterProps> = () => {
           paddingBottom: "3rem",
         }}
       ></div>
-      <div className="flex lg:flex-row lg:items-center justify-between flex-col items-start gap-10 lg:gap-0">
+      <div className="flex lg:flex-row lg:items-center justify-between flex-col items-start gap-8 lg:gap-0">
         <div>
           <Image src={logo} alt="logo" width={120} height={120} />
         </div>

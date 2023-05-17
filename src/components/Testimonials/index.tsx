@@ -6,7 +6,7 @@ type TestimonialsProps = {};
 
 const Testimonials: React.FC<TestimonialsProps> = () => {
   return (
-    <div className="bg-[#212121] px-4 lg:px-16 py-10 lg:py-20 text-[#fff] lg:grid grid-cols-3">
+    <div className="bg-[#212121] px-4 lg:px-16 py-14 lg:py-20 text-[#fff] lg:grid grid-cols-3">
       <aside>
         <h1 className="mb-12 lg:mb-0">TESTIMONIALS</h1>
       </aside>
