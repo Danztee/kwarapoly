@@ -41,11 +41,11 @@ export default function Home() {
             </div>
           </section>
 
-          <section className="mt-20">
+          <section className="mt-10 lg:mt-20">
             <Trusted />
           </section>
 
-          <section className="mt-20">
+          <section className="mt-10 lg:mt-20">
             <For
               title="For Students"
               text="View assignments and submit completed work directly through our
@@ -56,7 +56,7 @@ export default function Home() {
             />
           </section>
 
-          <section className="mt-20">
+          <section className="mt-10 lg:mt-20">
             <For
               title="For Lecturers"
               text="Create individual or series of assignments, set due dates and 
@@ -68,11 +68,11 @@ export default function Home() {
           </section>
         </div>
 
-        <div className="mt-20">
+        <div className="mt-10 lg:mt-20">
           <Testimonials />
         </div>
 
-        <div className="mt-20">
+        <div className="mt-10 lg:mt-20">
           <Footer />
         </div>
       </main>
