@@ -7,6 +7,10 @@ export default function App({ Component, pageProps }: AppProps) {
     <>
       <Head>
         <title>Kwarapoly</title>
+        <meta
+          name="description"
+          content="Assignment  management system created by abubakar Qoreebullahi and kamaldeen sulyman"
+        />
       </Head>
       <Component {...pageProps} />
     </>

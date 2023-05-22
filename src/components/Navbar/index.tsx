@@ -19,8 +19,15 @@ export default function Navbar() {
       </div>
 
       <div className="items-center gap-4 hidden lg:flex">
-        <CustomLink value="Sign In" outline />
-        <CustomLink value="Sign Up" />
+        <CustomLink
+          value="Sign In"
+          outline
+          to={"https://assignment-manager.vercel.app/"}
+        />
+        <CustomLink
+          value="Sign Up"
+          to={"https://assignment-manager.vercel.app/"}
+        />
       </div>
 
       <div className="btn absolute right-[10px] top-[16px] lg:hidden">
