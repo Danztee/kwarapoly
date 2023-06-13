@@ -20,7 +20,10 @@ const For: React.FC<ForProps> = ({ title, text, img }) => {
         </h1>
         <p className="text-[#505050]">{text}</p>
         <div className="mt-4">
-          <CustomLink value="Request a Demo" />
+          <CustomLink
+            value="Request a Demo"
+            to={"https://youtube.com/@kamaldeensulyman1741"}
+          />
         </div>
       </aside>
       <aside className="">

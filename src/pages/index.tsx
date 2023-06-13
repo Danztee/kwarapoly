@@ -32,7 +32,10 @@ export default function Home() {
               </p>
 
               <div>
-                <CustomLink value="Request a Demo" />
+                <CustomLink
+                  value="Request a Demo"
+                  to={"https://youtube.com/@kamaldeensulyman1741"}
+                />
               </div>
             </div>
 
