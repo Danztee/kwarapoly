@@ -23,7 +23,7 @@ export default function Home() {
           <section className="hero lg:mt-10">
             <div className="flex flex-col items-center">
               <h1 className="text-[2rem] lg:text-[2.5rem] font-bold mb-5 text-center">
-                Create and Submit Assignments <br /> with Ease
+                Streamlined Assignment Management <br /> with Ease
               </h1>
 
               <p className="text-[#505050] mb-8 text-center">
